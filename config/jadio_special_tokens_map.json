@@ -1,0 +1,48 @@
+{
+  "_metadata": {
+    "description": "Special tokens mapping for Jadio LLM tokenizer",
+    "version": "1.0",
+    "compatible_with": "gpt2_tokenizer"
+  },
+  "bos_token": {
+    "content": "<|endoftext|>",
+    "single_word": false,
+    "lstrip": false,
+    "rstrip": false,
+    "normalized": true
+  },
+  "eos_token": {
+    "content": "<|endoftext|>",
+    "single_word": false,
+    "lstrip": false,
+    "rstrip": false,
+    "normalized": true
+  },
+  "pad_token": {
+    "content": "<|endoftext|>",
+    "single_word": false,
+    "lstrip": false,
+    "rstrip": false,
+    "normalized": true
+  },
+  "unk_token": {
+    "content": "<|endoftext|>",
+    "single_word": false,
+    "lstrip": false,
+    "rstrip": false,
+    "normalized": true
+  },
+  "additional_special_tokens": [],
+  "token_ids": {
+    "bos_token_id": 50256,
+    "eos_token_id": 50256,
+    "pad_token_id": 50256,
+    "unk_token_id": 50256
+  },
+  "notes": {
+    "gpt2_compatibility": "Uses GPT-2 style tokenization with <|endoftext|> as the universal special token",
+    "vocab_size": 50257,
+    "max_position_embeddings": 1024,
+    "model_max_length": 1024
+  }
+}

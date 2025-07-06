@@ -1,0 +1,62 @@
+{
+  "_metadata": {
+    "name": "jadio_generation_default",
+    "description": "Default generation configuration for Jadio LLM",
+    "version": "1.0"
+  },
+  "generation": {
+    "max_new_tokens": 100,
+    "temperature": 0.8,
+    "top_k": 50,
+    "top_p": 0.9,
+    "do_sample": true,
+    "num_return_sequences": 1,
+    "repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "early_stopping": true,
+    "pad_token_id": 50256,
+    "eos_token_id": 50256,
+    "no_repeat_ngram_size": 3,
+    "encoder_no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "force_words_ids": null,
+    "renormalize_logits": false,
+    "constraints": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "forced_decoder_ids": null
+  },
+  "presets": {
+    "conservative": {
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.8,
+      "max_new_tokens": 50,
+      "repetition_penalty": 1.1
+    },
+    "balanced": {
+      "temperature": 0.8,
+      "top_k": 50,
+      "top_p": 0.9,
+      "max_new_tokens": 100,
+      "repetition_penalty": 1.0
+    },
+    "creative": {
+      "temperature": 1.0,
+      "top_k": 100,
+      "top_p": 0.95,
+      "max_new_tokens": 200,
+      "repetition_penalty": 0.9
+    },
+    "deterministic": {
+      "temperature": 1.0,
+      "do_sample": false,
+      "max_new_tokens": 100,
+      "repetition_penalty": 1.0
+    }
+  }
+}

@@ -124,7 +124,7 @@ def run_integration_test():
     """Run the full integration test."""
     print("\n🔬 Running integration test...")
     try:
-        from evaluation.jadio_integration_test import run_full_integration_test
+        from evaluation.jadio_test_integration import run_full_integration_test
         return run_full_integration_test()
     except Exception as e:
         print(f"❌ Integration test failed: {e}")
