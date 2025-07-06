@@ -1,1 +1,0 @@
-Jadio-CRTR experiment
