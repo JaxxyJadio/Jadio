@@ -1,0 +1,67 @@
+# === Batch Processing Super Config ===
+
+# Directories
+input_dir: INPUTDIR
+output_dir: OUTPUTDIR
+log_dir: LOGDIR
+manifest_log: MANIFESTLOG
+error_log: ERRORLOG
+
+# File selection
+supported_types: SUPPORTEDTYPES
+include_patterns: INCLUDEPATTERNS
+exclude_patterns: EXCLUDEPATTERNS
+min_file_size: MINFILESIZE
+max_file_size: MAXFILESIZE
+modified_after: MODIFIEDAFTER
+modified_before: MODIFIEDBEFORE
+
+# Processing
+parallelism: PARALLELISM
+use_gpu: USEGPU
+max_files: MAXFILES
+batch_size: BATCHSIZE
+memory_limit_mb: MEMORYLIMITMB
+
+# Preprocessing/Postprocessing
+preprocess_steps: PREPROCESSSTEPS
+postprocess_steps: POSTPROCESSSTEPS
+
+# Output
+output_format: OUTPUTFORMAT
+overwrite_existing: OVERWRITEEXISTING
+compress_output: COMPRESSOUTPUT
+
+# Logging
+log_level: LOGLEVEL
+progress_bar: PROGRESSBAR
+log_to_file: LOGTOFILE
+log_to_console: LOGTOCONSOLE
+log_format: LOGFORMAT
+
+# Error Handling
+retry_on_fail: RETRYONFAIL
+max_retries: MAXRETRIES
+skip_on_error: SKIPONERROR
+
+# Manifest/Reporting
+manifest_log: MANIFESTLOG
+summary_report: SUMMARYREPORT
+summary_format: SUMMARYFORMAT
+
+# Hooks
+pre_run_hook: PRERUNHOOK
+post_run_hook: POSTRUNHOOK
+
+# Dry Run/Test Mode
+dry_run: DRYRUN
+
+# Notifications
+notify_on_complete: NOTIFYONCOMPLETE
+notification_email: NOTIFICATIONEMAIL
+
+# Script/Analyzer Shortcuts
+shortcut_scripts_root: SHORTCUT_SCRIPTS_ROOT
+shortcut_report_path: data/curation/dataset_ai_auditor/hardcoded_filepaths_report.jsonl
+
+# Add more advanced options as needed

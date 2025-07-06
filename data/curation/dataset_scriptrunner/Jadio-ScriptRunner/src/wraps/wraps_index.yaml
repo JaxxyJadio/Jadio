@@ -1,0 +1,1822 @@
+wraps:
+- function: codeaigent_create_actiongroup
+  file: actiongrouputils.py
+  doc: ''
+- function: codeaigent_create_buttongroup
+  file: buttongrouputils.py
+  doc: ''
+- function: codeaigent_create_calendarwidget
+  file: calendarutils.py
+  doc: ''
+- function: codeaigent_create_checkbox
+  file: checkboxutils.py
+  doc: ''
+- function: codeaigent_create_commandlinkbutton
+  file: commandlinkbuttonutils.py
+  doc: ''
+- function: codeaigent_create_completer
+  file: completerutils.py
+  doc: ''
+- function: codeaigent_create_dateedit
+  file: datetimeutils.py
+  doc: ''
+- function: codeaigent_create_timeedit
+  file: datetimeutils.py
+  doc: ''
+- function: codeaigent_create_datetimeedit
+  file: datetimeutils.py
+  doc: ''
+- function: codeaigent_create_dial
+  file: dialutils.py
+  doc: ''
+- function: codeaigent_create_dockwidget
+  file: dockwidgetutils.py
+  doc: ''
+- function: codeaigent_create_fontcombobox
+  file: fontcomboboxutils.py
+  doc: ''
+- function: codeaigent_create_frame
+  file: frameutils.py
+  doc: ''
+- function: codeaigent_create_graphicsview
+  file: graphicsutils.py
+  doc: ''
+- function: codeaigent_create_graphicsscene
+  file: graphicsutils.py
+  doc: ''
+- function: codeaigent_create_groupbox
+  file: groupboxutils.py
+  doc: ''
+- function: codeaigent_create_keysequence
+  file: keycursorutils.py
+  doc: ''
+- function: codeaigent_create_cursor
+  file: keycursorutils.py
+  doc: ''
+- function: codeaigent_create_region
+  file: keycursorutils.py
+  doc: ''
+- function: codeaigent_create_bitmap
+  file: keycursorutils.py
+  doc: ''
+- function: codeaigent_create_lcdnumber
+  file: lcdnumberutils.py
+  doc: ''
+- function: codeaigent_create_listwidget
+  file: listwidgetutils.py
+  doc: ''
+- function: codeaigent_create_listview
+  file: listwidgetutils.py
+  doc: ''
+- function: codeaigent_create_mdiarea
+  file: mdiutils.py
+  doc: ''
+- function: codeaigent_create_mdisubwindow
+  file: mdiutils.py
+  doc: ''
+- function: codeaigent_create_menubar
+  file: menubarutils.py
+  doc: ''
+- function: codeaigent_create_menu
+  file: menuutils.py
+  doc: ''
+- function: codeaigent_create_mimedata
+  file: mimedatautils.py
+  doc: ''
+- function: codeaigent_create_movie
+  file: movieutils.py
+  doc: ''
+- function: codeaigent_create_openglwidget
+  file: openglutils.py
+  doc: ''
+- function: codeaigent_create_palette
+  file: paletteutils.py
+  doc: ''
+- function: codeaigent_create_progressbar
+  file: progressbarutils.py
+  doc: ''
+- function: codeaigent_create_qabstractanimation
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAbstractAnimation
+- function: codeaigent_create_qabstracteventdispatcher
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAbstractEventDispatcher
+- function: codeaigent_create_qabstractitemmodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAbstractItemModel
+- function: codeaigent_create_qabstractlistmodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAbstractListModel
+- function: codeaigent_create_qabstractnativeeventfilter
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAbstractNativeEventFilter
+- function: codeaigent_create_qabstractproxymodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAbstractProxyModel
+- function: codeaigent_create_qabstracttablemodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAbstractTableModel
+- function: codeaigent_create_qanimationgroup
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QAnimationGroup
+- function: codeaigent_create_qbasictimer
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QBasicTimer
+- function: codeaigent_create_qbitarray
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QBitArray
+- function: codeaigent_create_qbuffer
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QBuffer
+- function: codeaigent_create_qbytearray
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QByteArray
+- function: codeaigent_create_qbytearraymatcher
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QByteArrayMatcher
+- function: codeaigent_create_qcalendar
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCalendar
+- function: codeaigent_create_qcborerror
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCborError
+- function: codeaigent_create_qcborknowntags
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCborKnownTags
+- function: codeaigent_create_qcborsimpletype
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCborSimpleType
+- function: codeaigent_create_qcborstreamreader
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCborStreamReader
+- function: codeaigent_create_qcborstreamwriter
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCborStreamWriter
+- function: codeaigent_create_qchildevent
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QChildEvent
+- function: codeaigent_create_qcollator
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCollator
+- function: codeaigent_create_qcollatorsortkey
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCollatorSortKey
+- function: codeaigent_create_qcommandlineoption
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCommandLineOption
+- function: codeaigent_create_qcommandlineparser
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCommandLineParser
+- function: codeaigent_create_qconcatenatetablesproxymodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QConcatenateTablesProxyModel
+- function: codeaigent_create_qcoreapplication
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCoreApplication
+- function: codeaigent_create_qcryptographichash
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QCryptographicHash
+- function: codeaigent_create_qdatastream
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QDataStream
+- function: codeaigent_create_qdate
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QDate
+- function: codeaigent_create_qdatetime
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QDateTime
+- function: codeaigent_create_qdeadlinetimer
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QDeadlineTimer
+- function: codeaigent_create_qdir
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QDir
+- function: codeaigent_create_qdiriterator
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QDirIterator
+- function: codeaigent_create_qdynamicpropertychangeevent
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QDynamicPropertyChangeEvent
+- function: codeaigent_create_qeasingcurve
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QEasingCurve
+- function: codeaigent_create_qelapsedtimer
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QElapsedTimer
+- function: codeaigent_create_qevent
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QEvent
+- function: codeaigent_create_qeventloop
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QEventLoop
+- function: codeaigent_create_qeventlooplocker
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QEventLoopLocker
+- function: codeaigent_create_qfile
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QFile
+- function: codeaigent_create_qfiledevice
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QFileDevice
+- function: codeaigent_create_qfileinfo
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QFileInfo
+- function: codeaigent_create_qfileselector
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QFileSelector
+- function: codeaigent_create_qfilesystemwatcher
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QFileSystemWatcher
+- function: codeaigent_create_qgenericargument
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QGenericArgument
+- function: codeaigent_create_qgenericreturnargument
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QGenericReturnArgument
+- function: codeaigent_create_qiodevice
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QIODevice
+- function: codeaigent_create_qiodevicebase
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QIODeviceBase
+- function: codeaigent_create_qidentityproxymodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QIdentityProxyModel
+- function: codeaigent_create_qitemselection
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QItemSelection
+- function: codeaigent_create_qitemselectionmodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QItemSelectionModel
+- function: codeaigent_create_qitemselectionrange
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QItemSelectionRange
+- function: codeaigent_create_qjsondocument
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QJsonDocument
+- function: codeaigent_create_qjsonparseerror
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QJsonParseError
+- function: codeaigent_create_qjsonvalue
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QJsonValue
+- function: codeaigent_create_qkeycombination
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QKeyCombination
+- function: codeaigent_create_qlibrary
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QLibrary
+- function: codeaigent_create_qlibraryinfo
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QLibraryInfo
+- function: codeaigent_create_qline
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QLine
+- function: codeaigent_create_qlinef
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QLineF
+- function: codeaigent_create_qlocale
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QLocale
+- function: codeaigent_create_qlockfile
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QLockFile
+- function: codeaigent_create_qloggingcategory
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QLoggingCategory
+- function: codeaigent_create_qmargins
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMargins
+- function: codeaigent_create_qmarginsf
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMarginsF
+- function: codeaigent_create_qmessageauthenticationcode
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMessageAuthenticationCode
+- function: codeaigent_create_qmessagelogcontext
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMessageLogContext
+- function: codeaigent_create_qmessagelogger
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMessageLogger
+- function: codeaigent_create_qmetaclassinfo
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMetaClassInfo
+- function: codeaigent_create_qmetaenum
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMetaEnum
+- function: codeaigent_create_qmetamethod
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMetaMethod
+- function: codeaigent_create_qmetaobject
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMetaObject
+- function: codeaigent_create_qmetaproperty
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMetaProperty
+- function: codeaigent_create_qmetatype
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMetaType
+- function: codeaigent_create_qmimedata
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMimeData
+- function: codeaigent_create_qmimedatabase
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMimeDatabase
+- function: codeaigent_create_qmimetype
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMimeType
+- function: codeaigent_create_qmodelindex
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QModelIndex
+- function: codeaigent_create_qmodelroledata
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QModelRoleData
+- function: codeaigent_create_qmutex
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMutex
+- function: codeaigent_create_qmutexlocker
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QMutexLocker
+- function: codeaigent_create_qobject
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QObject
+- function: codeaigent_create_qobjectcleanuphandler
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QObjectCleanupHandler
+- function: codeaigent_create_qoperatingsystemversion
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QOperatingSystemVersion
+- function: codeaigent_create_qoperatingsystemversionbase
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QOperatingSystemVersionBase
+- function: codeaigent_create_qparallelanimationgroup
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QParallelAnimationGroup
+- function: codeaigent_create_qpauseanimation
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QPauseAnimation
+- function: codeaigent_create_qpersistentmodelindex
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QPersistentModelIndex
+- function: codeaigent_create_qpluginloader
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QPluginLoader
+- function: codeaigent_create_qpoint
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QPoint
+- function: codeaigent_create_qpointf
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QPointF
+- function: codeaigent_create_qprocess
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QProcess
+- function: codeaigent_create_qprocessenvironment
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QProcessEnvironment
+- function: codeaigent_create_qpropertyanimation
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QPropertyAnimation
+- function: codeaigent_create_qrandomgenerator
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRandomGenerator
+- function: codeaigent_create_qreadlocker
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QReadLocker
+- function: codeaigent_create_qreadwritelock
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QReadWriteLock
+- function: codeaigent_create_qrect
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRect
+- function: codeaigent_create_qrectf
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRectF
+- function: codeaigent_create_qrecursivemutex
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRecursiveMutex
+- function: codeaigent_create_qregularexpression
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRegularExpression
+- function: codeaigent_create_qregularexpressionmatch
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRegularExpressionMatch
+- function: codeaigent_create_qregularexpressionmatchiterator
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRegularExpressionMatchIterator
+- function: codeaigent_create_qresource
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QResource
+- function: codeaigent_create_qrunnable
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QRunnable
+- function: codeaigent_create_qsavefile
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSaveFile
+- function: codeaigent_create_qsemaphore
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSemaphore
+- function: codeaigent_create_qsemaphorereleaser
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSemaphoreReleaser
+- function: codeaigent_create_qsequentialanimationgroup
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSequentialAnimationGroup
+- function: codeaigent_create_qsettings
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSettings
+- function: codeaigent_create_qsharedmemory
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSharedMemory
+- function: codeaigent_create_qsignalblocker
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSignalBlocker
+- function: codeaigent_create_qsignalmapper
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSignalMapper
+- function: codeaigent_create_qsize
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSize
+- function: codeaigent_create_qsizef
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSizeF
+- function: codeaigent_create_qsocketnotifier
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSocketNotifier
+- function: codeaigent_create_qsortfilterproxymodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSortFilterProxyModel
+- function: codeaigent_create_qstandardpaths
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QStandardPaths
+- function: codeaigent_create_qstorageinfo
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QStorageInfo
+- function: codeaigent_create_qstringconverter
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QStringConverter
+- function: codeaigent_create_qstringconverterbase
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QStringConverterBase
+- function: codeaigent_create_qstringdecoder
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QStringDecoder
+- function: codeaigent_create_qstringencoder
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QStringEncoder
+- function: codeaigent_create_qstringlistmodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QStringListModel
+- function: codeaigent_create_qsysinfo
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSysInfo
+- function: codeaigent_create_qsystemsemaphore
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QSystemSemaphore
+- function: codeaigent_create_qtemporarydir
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTemporaryDir
+- function: codeaigent_create_qtemporaryfile
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTemporaryFile
+- function: codeaigent_create_qtextboundaryfinder
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTextBoundaryFinder
+- function: codeaigent_create_qtextstream
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTextStream
+- function: codeaigent_create_qtextstreammanipulator
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTextStreamManipulator
+- function: codeaigent_create_qthread
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QThread
+- function: codeaigent_create_qthreadpool
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QThreadPool
+- function: codeaigent_create_qtime
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTime
+- function: codeaigent_create_qtimeline
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTimeLine
+- function: codeaigent_create_qtimezone
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTimeZone
+- function: codeaigent_create_qtimer
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTimer
+- function: codeaigent_create_qtimerevent
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTimerEvent
+- function: codeaigent_create_qtranslator
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTranslator
+- function: codeaigent_create_qtransposeproxymodel
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTransposeProxyModel
+- function: codeaigent_create_qtyperevision
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QTypeRevision
+- function: codeaigent_create_qurl
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QUrl
+- function: codeaigent_create_qurlquery
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QUrlQuery
+- function: codeaigent_create_quuid
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QUuid
+- function: codeaigent_create_qvariant
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QVariant
+- function: codeaigent_create_qvariantanimation
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QVariantAnimation
+- function: codeaigent_create_qversionnumber
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QVersionNumber
+- function: codeaigent_create_qwaitcondition
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QWaitCondition
+- function: codeaigent_create_qwineventnotifier
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QWinEventNotifier
+- function: codeaigent_create_qwritelocker
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QWriteLocker
+- function: codeaigent_create_qxmlstreamattribute
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamAttribute
+- function: codeaigent_create_qxmlstreamattributes
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamAttributes
+- function: codeaigent_create_qxmlstreamentitydeclaration
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamEntityDeclaration
+- function: codeaigent_create_qxmlstreamentityresolver
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamEntityResolver
+- function: codeaigent_create_qxmlstreamnamespacedeclaration
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamNamespaceDeclaration
+- function: codeaigent_create_qxmlstreamnotationdeclaration
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamNotationDeclaration
+- function: codeaigent_create_qxmlstreamreader
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamReader
+- function: codeaigent_create_qxmlstreamwriter
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QXmlStreamWriter
+- function: codeaigent_create_qt
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.Qt
+- function: codeaigent_create_qtmsgtype
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.QtMsgType
+- function: codeaigent_create_pyqtboundsignal
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.pyqtBoundSignal
+- function: codeaigent_create_pyqtproperty
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.pyqtProperty
+- function: codeaigent_create_pyqtsignal
+  file: qtcoreutils.py
+  doc: Auto-generated wrapper for PyQt6.QtCore.pyqtSignal
+- function: codeaigent_create_qabstractfileiconprovider
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QAbstractFileIconProvider
+- function: codeaigent_create_qabstracttextdocumentlayout
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QAbstractTextDocumentLayout
+- function: codeaigent_create_qaction
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QAction
+- function: codeaigent_create_qactionevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QActionEvent
+- function: codeaigent_create_qactiongroup
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QActionGroup
+- function: codeaigent_create_qbackingstore
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QBackingStore
+- function: codeaigent_create_qbitmap
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QBitmap
+- function: codeaigent_create_qbrush
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QBrush
+- function: codeaigent_create_qclipboard
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QClipboard
+- function: codeaigent_create_qcloseevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QCloseEvent
+- function: codeaigent_create_qcolor
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QColor
+- function: codeaigent_create_qcolorconstants
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QColorConstants
+- function: codeaigent_create_qcolorspace
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QColorSpace
+- function: codeaigent_create_qcolortransform
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QColorTransform
+- function: codeaigent_create_qconicalgradient
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QConicalGradient
+- function: codeaigent_create_qcontextmenuevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QContextMenuEvent
+- function: codeaigent_create_qcursor
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QCursor
+- function: codeaigent_create_qdesktopservices
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QDesktopServices
+- function: codeaigent_create_qdoublevalidator
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QDoubleValidator
+- function: codeaigent_create_qdrag
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QDrag
+- function: codeaigent_create_qdragenterevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QDragEnterEvent
+- function: codeaigent_create_qdragleaveevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QDragLeaveEvent
+- function: codeaigent_create_qdragmoveevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QDragMoveEvent
+- function: codeaigent_create_qdropevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QDropEvent
+- function: codeaigent_create_qenterevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QEnterEvent
+- function: codeaigent_create_qeventpoint
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QEventPoint
+- function: codeaigent_create_qexposeevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QExposeEvent
+- function: codeaigent_create_qfileopenevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFileOpenEvent
+- function: codeaigent_create_qfilesystemmodel
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFileSystemModel
+- function: codeaigent_create_qfocusevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFocusEvent
+- function: codeaigent_create_qfont
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFont
+- function: codeaigent_create_qfontdatabase
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFontDatabase
+- function: codeaigent_create_qfontinfo
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFontInfo
+- function: codeaigent_create_qfontmetrics
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFontMetrics
+- function: codeaigent_create_qfontmetricsf
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QFontMetricsF
+- function: codeaigent_create_qglyphrun
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QGlyphRun
+- function: codeaigent_create_qgradient
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QGradient
+- function: codeaigent_create_qguiapplication
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QGuiApplication
+- function: codeaigent_create_qhelpevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QHelpEvent
+- function: codeaigent_create_qhideevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QHideEvent
+- function: codeaigent_create_qhoverevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QHoverEvent
+- function: codeaigent_create_qicon
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QIcon
+- function: codeaigent_create_qicondragevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QIconDragEvent
+- function: codeaigent_create_qiconengine
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QIconEngine
+- function: codeaigent_create_qimage
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QImage
+- function: codeaigent_create_qimageiohandler
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QImageIOHandler
+- function: codeaigent_create_qimagereader
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QImageReader
+- function: codeaigent_create_qimagewriter
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QImageWriter
+- function: codeaigent_create_qinputdevice
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QInputDevice
+- function: codeaigent_create_qinputevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QInputEvent
+- function: codeaigent_create_qinputmethod
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QInputMethod
+- function: codeaigent_create_qinputmethodevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QInputMethodEvent
+- function: codeaigent_create_qinputmethodqueryevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QInputMethodQueryEvent
+- function: codeaigent_create_qintvalidator
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QIntValidator
+- function: codeaigent_create_qkeyevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QKeyEvent
+- function: codeaigent_create_qkeysequence
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QKeySequence
+- function: codeaigent_create_qlineargradient
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QLinearGradient
+- function: codeaigent_create_qmatrix2x2
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix2x2
+- function: codeaigent_create_qmatrix2x3
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix2x3
+- function: codeaigent_create_qmatrix2x4
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix2x4
+- function: codeaigent_create_qmatrix3x2
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix3x2
+- function: codeaigent_create_qmatrix3x3
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix3x3
+- function: codeaigent_create_qmatrix3x4
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix3x4
+- function: codeaigent_create_qmatrix4x2
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix4x2
+- function: codeaigent_create_qmatrix4x3
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix4x3
+- function: codeaigent_create_qmatrix4x4
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMatrix4x4
+- function: codeaigent_create_qmouseevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMouseEvent
+- function: codeaigent_create_qmoveevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMoveEvent
+- function: codeaigent_create_qmovie
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QMovie
+- function: codeaigent_create_qnativegestureevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QNativeGestureEvent
+- function: codeaigent_create_qoffscreensurface
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QOffscreenSurface
+- function: codeaigent_create_qopenglcontext
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QOpenGLContext
+- function: codeaigent_create_qopenglcontextgroup
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QOpenGLContextGroup
+- function: codeaigent_create_qpagelayout
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPageLayout
+- function: codeaigent_create_qpageranges
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPageRanges
+- function: codeaigent_create_qpagesize
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPageSize
+- function: codeaigent_create_qpagedpaintdevice
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPagedPaintDevice
+- function: codeaigent_create_qpaintdevice
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPaintDevice
+- function: codeaigent_create_qpaintdevicewindow
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPaintDeviceWindow
+- function: codeaigent_create_qpaintengine
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPaintEngine
+- function: codeaigent_create_qpaintenginestate
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPaintEngineState
+- function: codeaigent_create_qpaintevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPaintEvent
+- function: codeaigent_create_qpainter
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPainter
+- function: codeaigent_create_qpainterpath
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPainterPath
+- function: codeaigent_create_qpainterpathstroker
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPainterPathStroker
+- function: codeaigent_create_qpalette
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPalette
+- function: codeaigent_create_qpdfwriter
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPdfWriter
+- function: codeaigent_create_qpen
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPen
+- function: codeaigent_create_qpicture
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPicture
+- function: codeaigent_create_qpixelformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPixelFormat
+- function: codeaigent_create_qpixmap
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPixmap
+- function: codeaigent_create_qpixmapcache
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPixmapCache
+- function: codeaigent_create_qplatformsurfaceevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPlatformSurfaceEvent
+- function: codeaigent_create_qpointerevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPointerEvent
+- function: codeaigent_create_qpointingdevice
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPointingDevice
+- function: codeaigent_create_qpointingdeviceuniqueid
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPointingDeviceUniqueId
+- function: codeaigent_create_qpolygon
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPolygon
+- function: codeaigent_create_qpolygonf
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QPolygonF
+- function: codeaigent_create_qquaternion
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QQuaternion
+- function: codeaigent_create_qradialgradient
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QRadialGradient
+- function: codeaigent_create_qrasterwindow
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QRasterWindow
+- function: codeaigent_create_qrawfont
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QRawFont
+- function: codeaigent_create_qregion
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QRegion
+- function: codeaigent_create_qregularexpressionvalidator
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QRegularExpressionValidator
+- function: codeaigent_create_qresizeevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QResizeEvent
+- function: codeaigent_create_qrgba64
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QRgba64
+- function: codeaigent_create_qscreen
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QScreen
+- function: codeaigent_create_qscrollevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QScrollEvent
+- function: codeaigent_create_qscrollprepareevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QScrollPrepareEvent
+- function: codeaigent_create_qsessionmanager
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QSessionManager
+- function: codeaigent_create_qshortcut
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QShortcut
+- function: codeaigent_create_qshortcutevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QShortcutEvent
+- function: codeaigent_create_qshowevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QShowEvent
+- function: codeaigent_create_qsinglepointevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QSinglePointEvent
+- function: codeaigent_create_qstandarditem
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QStandardItem
+- function: codeaigent_create_qstandarditemmodel
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QStandardItemModel
+- function: codeaigent_create_qstatictext
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QStaticText
+- function: codeaigent_create_qstatustipevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QStatusTipEvent
+- function: codeaigent_create_qstylehints
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QStyleHints
+- function: codeaigent_create_qsurface
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QSurface
+- function: codeaigent_create_qsurfaceformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QSurfaceFormat
+- function: codeaigent_create_qsyntaxhighlighter
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QSyntaxHighlighter
+- function: codeaigent_create_qtabletevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTabletEvent
+- function: codeaigent_create_qtextblock
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextBlock
+- function: codeaigent_create_qtextblockformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextBlockFormat
+- function: codeaigent_create_qtextblockgroup
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextBlockGroup
+- function: codeaigent_create_qtextblockuserdata
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextBlockUserData
+- function: codeaigent_create_qtextcharformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextCharFormat
+- function: codeaigent_create_qtextcursor
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextCursor
+- function: codeaigent_create_qtextdocument
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextDocument
+- function: codeaigent_create_qtextdocumentfragment
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextDocumentFragment
+- function: codeaigent_create_qtextdocumentwriter
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextDocumentWriter
+- function: codeaigent_create_qtextformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextFormat
+- function: codeaigent_create_qtextfragment
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextFragment
+- function: codeaigent_create_qtextframe
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextFrame
+- function: codeaigent_create_qtextframeformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextFrameFormat
+- function: codeaigent_create_qtextimageformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextImageFormat
+- function: codeaigent_create_qtextinlineobject
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextInlineObject
+- function: codeaigent_create_qtextitem
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextItem
+- function: codeaigent_create_qtextlayout
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextLayout
+- function: codeaigent_create_qtextlength
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextLength
+- function: codeaigent_create_qtextline
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextLine
+- function: codeaigent_create_qtextlist
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextList
+- function: codeaigent_create_qtextlistformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextListFormat
+- function: codeaigent_create_qtextobject
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextObject
+- function: codeaigent_create_qtextobjectinterface
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextObjectInterface
+- function: codeaigent_create_qtextoption
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextOption
+- function: codeaigent_create_qtexttable
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextTable
+- function: codeaigent_create_qtexttablecell
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextTableCell
+- function: codeaigent_create_qtexttablecellformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextTableCellFormat
+- function: codeaigent_create_qtexttableformat
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTextTableFormat
+- function: codeaigent_create_qtouchevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTouchEvent
+- function: codeaigent_create_qtransform
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QTransform
+- function: codeaigent_create_qundocommand
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QUndoCommand
+- function: codeaigent_create_qundogroup
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QUndoGroup
+- function: codeaigent_create_qundostack
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QUndoStack
+- function: codeaigent_create_qvalidator
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QValidator
+- function: codeaigent_create_qvector2d
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QVector2D
+- function: codeaigent_create_qvector3d
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QVector3D
+- function: codeaigent_create_qvector4d
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QVector4D
+- function: codeaigent_create_qwhatsthisclickedevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QWhatsThisClickedEvent
+- function: codeaigent_create_qwheelevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QWheelEvent
+- function: codeaigent_create_qwindow
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QWindow
+- function: codeaigent_create_qwindowstatechangeevent
+  file: qtguiutils.py
+  doc: Auto-generated wrapper for PyQt6.QtGui.QWindowStateChangeEvent
+- function: codeaigent_create_qaudio
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudio
+- function: codeaigent_create_qaudiobuffer
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioBuffer
+- function: codeaigent_create_qaudiodecoder
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioDecoder
+- function: codeaigent_create_qaudiodevice
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioDevice
+- function: codeaigent_create_qaudioformat
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioFormat
+- function: codeaigent_create_qaudioinput
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioInput
+- function: codeaigent_create_qaudiooutput
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioOutput
+- function: codeaigent_create_qaudiosink
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioSink
+- function: codeaigent_create_qaudiosource
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QAudioSource
+- function: codeaigent_create_qcamera
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QCamera
+- function: codeaigent_create_qcameradevice
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QCameraDevice
+- function: codeaigent_create_qcameraformat
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QCameraFormat
+- function: codeaigent_create_qimagecapture
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QImageCapture
+- function: codeaigent_create_qmediacapturesession
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QMediaCaptureSession
+- function: codeaigent_create_qmediadevices
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QMediaDevices
+- function: codeaigent_create_qmediaformat
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QMediaFormat
+- function: codeaigent_create_qmediametadata
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QMediaMetaData
+- function: codeaigent_create_qmediaplayer
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QMediaPlayer
+- function: codeaigent_create_qmediarecorder
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QMediaRecorder
+- function: codeaigent_create_qmediatimerange
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QMediaTimeRange
+- function: codeaigent_create_qsoundeffect
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QSoundEffect
+- function: codeaigent_create_qvideoframe
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QVideoFrame
+- function: codeaigent_create_qvideoframeformat
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QVideoFrameFormat
+- function: codeaigent_create_qvideosink
+  file: qtmultimediautils.py
+  doc: Auto-generated wrapper for PyQt6.QtMultimedia.QVideoSink
+- function: codeaigent_create_qopenglwidget
+  file: qtopenglwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtOpenGLWidgets.QOpenGLWidget
+- function: codeaigent_create_qabstractprintdialog
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QAbstractPrintDialog
+- function: codeaigent_create_qpagesetupdialog
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QPageSetupDialog
+- function: codeaigent_create_qprintdialog
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QPrintDialog
+- function: codeaigent_create_qprintengine
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QPrintEngine
+- function: codeaigent_create_qprintpreviewdialog
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QPrintPreviewDialog
+- function: codeaigent_create_qprintpreviewwidget
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QPrintPreviewWidget
+- function: codeaigent_create_qprinter
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QPrinter
+- function: codeaigent_create_qprinterinfo
+  file: qtprintsupportutils.py
+  doc: Auto-generated wrapper for PyQt6.QtPrintSupport.QPrinterInfo
+- function: codeaigent_create_qgraphicssvgitem
+  file: qtsvgwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtSvgWidgets.QGraphicsSvgItem
+- function: codeaigent_create_qsvgwidget
+  file: qtsvgwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtSvgWidgets.QSvgWidget
+- function: codeaigent_create_qabstractbutton
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QAbstractButton
+- function: codeaigent_create_qabstractgraphicsshapeitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QAbstractGraphicsShapeItem
+- function: codeaigent_create_qabstractitemdelegate
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QAbstractItemDelegate
+- function: codeaigent_create_qabstractitemview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QAbstractItemView
+- function: codeaigent_create_qabstractscrollarea
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QAbstractScrollArea
+- function: codeaigent_create_qabstractslider
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QAbstractSlider
+- function: codeaigent_create_qabstractspinbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QAbstractSpinBox
+- function: codeaigent_create_qapplication
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QApplication
+- function: codeaigent_create_qboxlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QBoxLayout
+- function: codeaigent_create_qbuttongroup
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QButtonGroup
+- function: codeaigent_create_qcalendarwidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QCalendarWidget
+- function: codeaigent_create_qcheckbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QCheckBox
+- function: codeaigent_create_qcolordialog
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QColorDialog
+- function: codeaigent_create_qcolumnview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QColumnView
+- function: codeaigent_create_qcombobox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QComboBox
+- function: codeaigent_create_qcommandlinkbutton
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QCommandLinkButton
+- function: codeaigent_create_qcommonstyle
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QCommonStyle
+- function: codeaigent_create_qcompleter
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QCompleter
+- function: codeaigent_create_qdatawidgetmapper
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDataWidgetMapper
+- function: codeaigent_create_qdateedit
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDateEdit
+- function: codeaigent_create_qdatetimeedit
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDateTimeEdit
+- function: codeaigent_create_qdial
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDial
+- function: codeaigent_create_qdialog
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDialog
+- function: codeaigent_create_qdialogbuttonbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDialogButtonBox
+- function: codeaigent_create_qdockwidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDockWidget
+- function: codeaigent_create_qdoublespinbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QDoubleSpinBox
+- function: codeaigent_create_qerrormessage
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QErrorMessage
+- function: codeaigent_create_qfiledialog
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QFileDialog
+- function: codeaigent_create_qfileiconprovider
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QFileIconProvider
+- function: codeaigent_create_qfocusframe
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QFocusFrame
+- function: codeaigent_create_qfontcombobox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QFontComboBox
+- function: codeaigent_create_qfontdialog
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QFontDialog
+- function: codeaigent_create_qformlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QFormLayout
+- function: codeaigent_create_qframe
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QFrame
+- function: codeaigent_create_qgesture
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGesture
+- function: codeaigent_create_qgestureevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGestureEvent
+- function: codeaigent_create_qgesturerecognizer
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGestureRecognizer
+- function: codeaigent_create_qgraphicsanchor
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsAnchor
+- function: codeaigent_create_qgraphicsanchorlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsAnchorLayout
+- function: codeaigent_create_qgraphicsblureffect
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsBlurEffect
+- function: codeaigent_create_qgraphicscolorizeeffect
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsColorizeEffect
+- function: codeaigent_create_qgraphicsdropshadoweffect
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsDropShadowEffect
+- function: codeaigent_create_qgraphicseffect
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsEffect
+- function: codeaigent_create_qgraphicsellipseitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsEllipseItem
+- function: codeaigent_create_qgraphicsgridlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsGridLayout
+- function: codeaigent_create_qgraphicsitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsItem
+- function: codeaigent_create_qgraphicsitemgroup
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsItemGroup
+- function: codeaigent_create_qgraphicslayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsLayout
+- function: codeaigent_create_qgraphicslayoutitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsLayoutItem
+- function: codeaigent_create_qgraphicslineitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsLineItem
+- function: codeaigent_create_qgraphicslinearlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsLinearLayout
+- function: codeaigent_create_qgraphicsobject
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsObject
+- function: codeaigent_create_qgraphicsopacityeffect
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsOpacityEffect
+- function: codeaigent_create_qgraphicspathitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsPathItem
+- function: codeaigent_create_qgraphicspixmapitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsPixmapItem
+- function: codeaigent_create_qgraphicspolygonitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsPolygonItem
+- function: codeaigent_create_qgraphicsproxywidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsProxyWidget
+- function: codeaigent_create_qgraphicsrectitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsRectItem
+- function: codeaigent_create_qgraphicsrotation
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsRotation
+- function: codeaigent_create_qgraphicsscale
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsScale
+- function: codeaigent_create_qgraphicsscene
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsScene
+- function: codeaigent_create_qgraphicsscenecontextmenuevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneContextMenuEvent
+- function: codeaigent_create_qgraphicsscenedragdropevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneDragDropEvent
+- function: codeaigent_create_qgraphicssceneevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneEvent
+- function: codeaigent_create_qgraphicsscenehelpevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneHelpEvent
+- function: codeaigent_create_qgraphicsscenehoverevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneHoverEvent
+- function: codeaigent_create_qgraphicsscenemouseevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneMouseEvent
+- function: codeaigent_create_qgraphicsscenemoveevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneMoveEvent
+- function: codeaigent_create_qgraphicssceneresizeevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneResizeEvent
+- function: codeaigent_create_qgraphicsscenewheelevent
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSceneWheelEvent
+- function: codeaigent_create_qgraphicssimpletextitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsSimpleTextItem
+- function: codeaigent_create_qgraphicstextitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsTextItem
+- function: codeaigent_create_qgraphicstransform
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsTransform
+- function: codeaigent_create_qgraphicsview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsView
+- function: codeaigent_create_qgraphicswidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGraphicsWidget
+- function: codeaigent_create_qgridlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGridLayout
+- function: codeaigent_create_qgroupbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QGroupBox
+- function: codeaigent_create_qhboxlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QHBoxLayout
+- function: codeaigent_create_qheaderview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QHeaderView
+- function: codeaigent_create_qinputdialog
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QInputDialog
+- function: codeaigent_create_qitemdelegate
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QItemDelegate
+- function: codeaigent_create_qitemeditorcreatorbase
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QItemEditorCreatorBase
+- function: codeaigent_create_qitemeditorfactory
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QItemEditorFactory
+- function: codeaigent_create_qkeysequenceedit
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QKeySequenceEdit
+- function: codeaigent_create_qlcdnumber
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QLCDNumber
+- function: codeaigent_create_qlabel
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QLabel
+- function: codeaigent_create_qlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QLayout
+- function: codeaigent_create_qlayoutitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QLayoutItem
+- function: codeaigent_create_qlineedit
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QLineEdit
+- function: codeaigent_create_qlistview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QListView
+- function: codeaigent_create_qlistwidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QListWidget
+- function: codeaigent_create_qlistwidgetitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QListWidgetItem
+- function: codeaigent_create_qmainwindow
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QMainWindow
+- function: codeaigent_create_qmdiarea
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QMdiArea
+- function: codeaigent_create_qmdisubwindow
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QMdiSubWindow
+- function: codeaigent_create_qmenu
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QMenu
+- function: codeaigent_create_qmenubar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QMenuBar
+- function: codeaigent_create_qmessagebox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QMessageBox
+- function: codeaigent_create_qpangesture
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QPanGesture
+- function: codeaigent_create_qpinchgesture
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QPinchGesture
+- function: codeaigent_create_qplaintextdocumentlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QPlainTextDocumentLayout
+- function: codeaigent_create_qplaintextedit
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QPlainTextEdit
+- function: codeaigent_create_qprogressbar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QProgressBar
+- function: codeaigent_create_qprogressdialog
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QProgressDialog
+- function: codeaigent_create_qproxystyle
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QProxyStyle
+- function: codeaigent_create_qpushbutton
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QPushButton
+- function: codeaigent_create_qradiobutton
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QRadioButton
+- function: codeaigent_create_qrubberband
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QRubberBand
+- function: codeaigent_create_qscrollarea
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QScrollArea
+- function: codeaigent_create_qscrollbar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QScrollBar
+- function: codeaigent_create_qscroller
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QScroller
+- function: codeaigent_create_qscrollerproperties
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QScrollerProperties
+- function: codeaigent_create_qsizegrip
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSizeGrip
+- function: codeaigent_create_qsizepolicy
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSizePolicy
+- function: codeaigent_create_qslider
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSlider
+- function: codeaigent_create_qspaceritem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSpacerItem
+- function: codeaigent_create_qspinbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSpinBox
+- function: codeaigent_create_qsplashscreen
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSplashScreen
+- function: codeaigent_create_qsplitter
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSplitter
+- function: codeaigent_create_qsplitterhandle
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSplitterHandle
+- function: codeaigent_create_qstackedlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStackedLayout
+- function: codeaigent_create_qstackedwidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStackedWidget
+- function: codeaigent_create_qstatusbar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStatusBar
+- function: codeaigent_create_qstyle
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyle
+- function: codeaigent_create_qstylefactory
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleFactory
+- function: codeaigent_create_qstylehintreturn
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleHintReturn
+- function: codeaigent_create_qstylehintreturnmask
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleHintReturnMask
+- function: codeaigent_create_qstylehintreturnvariant
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleHintReturnVariant
+- function: codeaigent_create_qstyleoption
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOption
+- function: codeaigent_create_qstyleoptionbutton
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionButton
+- function: codeaigent_create_qstyleoptioncombobox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionComboBox
+- function: codeaigent_create_qstyleoptioncomplex
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionComplex
+- function: codeaigent_create_qstyleoptiondockwidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionDockWidget
+- function: codeaigent_create_qstyleoptionfocusrect
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionFocusRect
+- function: codeaigent_create_qstyleoptionframe
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionFrame
+- function: codeaigent_create_qstyleoptiongraphicsitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionGraphicsItem
+- function: codeaigent_create_qstyleoptiongroupbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionGroupBox
+- function: codeaigent_create_qstyleoptionheader
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionHeader
+- function: codeaigent_create_qstyleoptionheaderv2
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionHeaderV2
+- function: codeaigent_create_qstyleoptionmenuitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionMenuItem
+- function: codeaigent_create_qstyleoptionprogressbar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionProgressBar
+- function: codeaigent_create_qstyleoptionrubberband
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionRubberBand
+- function: codeaigent_create_qstyleoptionsizegrip
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionSizeGrip
+- function: codeaigent_create_qstyleoptionslider
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionSlider
+- function: codeaigent_create_qstyleoptionspinbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionSpinBox
+- function: codeaigent_create_qstyleoptiontab
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionTab
+- function: codeaigent_create_qstyleoptiontabbarbase
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionTabBarBase
+- function: codeaigent_create_qstyleoptiontabwidgetframe
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionTabWidgetFrame
+- function: codeaigent_create_qstyleoptiontitlebar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionTitleBar
+- function: codeaigent_create_qstyleoptiontoolbar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionToolBar
+- function: codeaigent_create_qstyleoptiontoolbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionToolBox
+- function: codeaigent_create_qstyleoptiontoolbutton
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionToolButton
+- function: codeaigent_create_qstyleoptionviewitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyleOptionViewItem
+- function: codeaigent_create_qstylepainter
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStylePainter
+- function: codeaigent_create_qstyleditemdelegate
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QStyledItemDelegate
+- function: codeaigent_create_qswipegesture
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSwipeGesture
+- function: codeaigent_create_qsystemtrayicon
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QSystemTrayIcon
+- function: codeaigent_create_qtabbar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTabBar
+- function: codeaigent_create_qtabwidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTabWidget
+- function: codeaigent_create_qtableview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTableView
+- function: codeaigent_create_qtablewidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTableWidget
+- function: codeaigent_create_qtablewidgetitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTableWidgetItem
+- function: codeaigent_create_qtablewidgetselectionrange
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTableWidgetSelectionRange
+- function: codeaigent_create_qtapandholdgesture
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTapAndHoldGesture
+- function: codeaigent_create_qtapgesture
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTapGesture
+- function: codeaigent_create_qtextbrowser
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTextBrowser
+- function: codeaigent_create_qtextedit
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTextEdit
+- function: codeaigent_create_qtimeedit
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTimeEdit
+- function: codeaigent_create_qtoolbar
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QToolBar
+- function: codeaigent_create_qtoolbox
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QToolBox
+- function: codeaigent_create_qtoolbutton
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QToolButton
+- function: codeaigent_create_qtooltip
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QToolTip
+- function: codeaigent_create_qtreeview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTreeView
+- function: codeaigent_create_qtreewidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTreeWidget
+- function: codeaigent_create_qtreewidgetitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTreeWidgetItem
+- function: codeaigent_create_qtreewidgetitemiterator
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QTreeWidgetItemIterator
+- function: codeaigent_create_qundoview
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QUndoView
+- function: codeaigent_create_qvboxlayout
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QVBoxLayout
+- function: codeaigent_create_qwhatsthis
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QWhatsThis
+- function: codeaigent_create_qwidget
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QWidget
+- function: codeaigent_create_qwidgetaction
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QWidgetAction
+- function: codeaigent_create_qwidgetitem
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QWidgetItem
+- function: codeaigent_create_qwizard
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QWizard
+- function: codeaigent_create_qwizardpage
+  file: qtwidgetsutils.py
+  doc: Auto-generated wrapper for PyQt6.QtWidgets.QWizardPage
+- function: codeaigent_create_radiobutton
+  file: radiobuttonutils.py
+  doc: ''
+- function: codeaigent_create_scrollarea
+  file: scrollareautils.py
+  doc: ''
+- function: codeaigent_create_scrollbar
+  file: scrollbarutils.py
+  doc: ''
+- function: codeaigent_create_shortcut
+  file: shortcututils.py
+  doc: ''
+- function: codeaigent_create_slider
+  file: sliderutils.py
+  doc: ''
+- function: codeaigent_create_soundeffect
+  file: soundeffectutils.py
+  doc: ''
+- function: codeaigent_create_spinbox
+  file: spinboxutils.py
+  doc: ''
+- function: codeaigent_create_doublespinbox
+  file: spinboxutils.py
+  doc: ''
+- function: codeaigent_create_splashscreen
+  file: splashscreenutils.py
+  doc: ''
+- function: codeaigent_create_splitterhandle
+  file: splitterhandleutils.py
+  doc: ''
+- function: codeaigent_create_stackedwidget
+  file: stackedwidgetutils.py
+  doc: ''
+- function: codeaigent_create_style
+  file: styleutils.py
+  doc: ''
+- function: codeaigent_create_styleoption
+  file: styleutils.py
+  doc: ''
+- function: codeaigent_create_stylepainter
+  file: styleutils.py
+  doc: ''
+- function: codeaigent_create_svgwidget
+  file: svgutils.py
+  doc: ''
+- function: codeaigent_create_systemtrayicon
+  file: systemtrayutils.py
+  doc: ''
+- function: codeaigent_create_tabbar
+  file: tabbarutils.py
+  doc: ''
+- function: codeaigent_create_tablewidget
+  file: tablewidgetutils.py
+  doc: ''
+- function: codeaigent_create_tableview
+  file: tablewidgetutils.py
+  doc: ''
+- function: codeaigent_create_toolbar
+  file: toolbarutils.py
+  doc: ''
+- function: codeaigent_create_toolbutton
+  file: toolbarutils.py
+  doc: ''
+- function: codeaigent_create_toolbox
+  file: toolboxutils.py
+  doc: ''
+- function: codeaigent_create_treewidget
+  file: treewidgetutils.py
+  doc: ''
+- function: codeaigent_create_treeview
+  file: treewidgetutils.py
+  doc: ''
+- function: codeaigent_create_int_validator
+  file: validatorutils.py
+  doc: ''
+- function: codeaigent_create_double_validator
+  file: validatorutils.py
+  doc: ''
+- function: codeaigent_create_regex_validator
+  file: validatorutils.py
+  doc: ''
+- function: codeaigent_create_wizard
+  file: wizardutils.py
+  doc: ''
+- function: codeaigent_create_wizardpage
+  file: wizardutils.py
+  doc: ''

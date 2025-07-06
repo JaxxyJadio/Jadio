@@ -1,0 +1,1 @@
+A fully functional dataset processing factory built within the model, which we will train to use as a tool so it can generate its own data. Also will be used to curate his own knowdlege.
