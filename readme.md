@@ -54,4 +54,8 @@ __init__.py
 pyproject.toml
 readme.md
 requirements.txt
+<<<<<<< HEAD
 setup.py
+=======
+setup.py
+>>>>>>> 1f820e22de8678f79aba17fd8f04961124c86d33
