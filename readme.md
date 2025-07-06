@@ -1,62 +1,57 @@
-# Jadio
-
-Jadio is a private large language model (LLM) project. This repository contains all code, scripts, and configuration for developing, training, and evaluating the Jadio LLM.
-
-## Project Tree
-```
-Jadio/
-├── checkpoints/
-│   └── __init__.py
-├── config/
-│   ├── __init__.py
-│   ├── jadio_config_manager.py
-│   ├── jadio_config.py
-│   ├── jadio_test_config.py
-│   └── jadio_train_config.py
-├── data/
-│   ├── __init__.py
-│   ├── jadio_dataset_loader.py
-│   └── jadio_test_dataset_loader.py
-├── evaluation/
-│   ├── __init__.py
-│   ├── jadio_benchmark_test.py
-│   └── jadio_evaluation.py
-├── metrics/
-│   ├── __init__.py
-│   └── jadio_metrics.py
-├── modelling/
-│   ├── __init__.py
-│   ├── jadio_attention.py
-│   ├── jadio_decoder_transformer.py
-│   ├── jadio_embeddings.py
-│   ├── jadio_feed_forward.py
-│   └── jadio_layer_norm.py
-├── scripts/
-│   ├── __init__.py
-│   ├── jadio_eval.py
-│   ├── jadio_generate.py
-│   ├── jadio_test.py
-│   ├── jadio_train.py
-│   ├── jadio_utilities.py
-│   └── jadio_wandb.py
-├── tokenizer/
-│   ├── __init__.py
-│   ├── jadio_test_tokenizer.py
-│   ├── jadio_tokenizer.py
-│   └── jadio_train_tokenizer.py
-├── training/
-│   ├── __init__.py
-│   ├── jadio_optimizer.py
-│   ├── jadio_scheduler.py
-│   └── jadio_trainer.py
-├── __init__.py
-├── pyproject.toml
-├── readme.md
-├── requirements.txt
-└── setup.py
-```
-
-## Notes
-- This repository is private and intended for personal or internal use only.
-- All code, data, and experiments are specific to the Jadio LLM project.
-
+checkpoints
+checkpoints\__init__.py
+config
+config\__init__.py
+config\jadio_config_manager.py
+config\jadio_config.json
+config\jadio_config.py
+config\jadio_generation_config.json
+config\jadio_special_tokens_map.json
+config\jadio_test_config.py
+config\jadio_train_config.py
+data
+data\__init__.py
+data\jadio_dataset_loader.py
+data\jadio_test_dataset_loader.py
+evaluation
+evaluation\__init__.py
+evaluation\jadio_benchmark_test.py
+evaluation\jadio_evaluation.py
+evaluation\jadio_metrics.py
+evaluation\jadio_test_1.py
+modelling
+modelling\jadio01
+modelling\jadio01\jadio_attention.py
+modelling\jadio01\jadio_decoder_transformer.py
+modelling\jadio01\jadio_embeddings.py
+modelling\jadio01\jadio_feed_forward.py
+modelling\jadio01\jadio_layer_norm.py
+modelling\jadio01\merges.txt
+modelling\jadio01\tokenizer_config.json
+modelling\jadio01\tokenizer.json
+modelling\jadio01\vocab.json
+modelling\__init__.py
+scripts
+scripts\__init__.py
+scripts\jadio_generate.py
+scripts\jadio_utilities.py
+scripts\jadio_wandb.py
+tokenizer
+tokenizer\__init__.py
+tokenizer\jadio_test_tokenizer.py
+tokenizer\jadio_tokenizer_config.json
+tokenizer\jadio_tokenizer.json
+tokenizer\jadio_tokenizer.py
+tokenizer\jadio_train_tokenizer.py
+training
+training\__init__.py
+training\jadio_optimizer.py
+training\jadio_scheduler.py
+training\jadio_train.py
+training\jadio_trainer.py
+__init__.py
+.gitignore
+pyproject.toml
+readme.md
+requirements.txt
+setup.py
