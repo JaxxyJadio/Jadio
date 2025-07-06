@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+torch
+pydantic
+httpx
+gitpython
+python-multipart
+jinja2
+cerberus

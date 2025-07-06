@@ -1,0 +1,35 @@
+<!--
+frontend.html with Heavy Inline Documentation
+
+This is the standalone frontend for Jadio-quick-llm, designed for personal, LAN-only use.
+It provides a modern, responsive chat UI, file tree browser, and file viewer for interacting with the backend FastAPI server.
+
+Design assumptions:
+- This file is served either directly (file://) or by the backend (main.py) on a trusted LAN.
+- All API endpoints are open and permissive, safe only for private, single-user networks.
+- No authentication, rate limiting, or advanced security is present by design.
+- Interacts with /api/chat, /api/filetree, and /api/file endpoints as described in README.md and flowguide.md.
+- All inference and file access is performed on the server (PC 2); this UI is just a client.
+
+If you are reading this in the future, remember: this file is optimized for simplicity, maintainability, and rapid iteration in a trusted environment.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadio-quick-llm Chat (LAN Frontend)</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div id="chat">
+    <button id="togglemode">Toggle Dark/Light</button>
+    <div id="filetree"></div>
+    <div id="fileview"></div>
+    <div id="messages"></div>
+    <input id="input" placeholder="Type your message..." autofocus />
+    <button id="send">Send</button>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

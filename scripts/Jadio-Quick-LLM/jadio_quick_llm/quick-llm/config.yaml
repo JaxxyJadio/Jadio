@@ -1,0 +1,32 @@
+# config.yaml for Jadio-quick-llm
+#
+# This file contains all configuration values for the Jadio-quick-llm project.
+# Edit this file to change model location, server port, authentication, rate limiting, and other settings.
+#
+# SECURITY WARNING:
+# - This project is intended for LAN-only, personal use. Do NOT expose to the public internet without strong authentication and rate limiting.
+# - If auth_password is blank or null, all API endpoints are open to the LAN (trusted network only!).
+# - If rate_limit is blank or null, there is no protection against accidental DoS from LAN clients.
+#
+# For details on each setting, see the inline comments below and the documentation in config.py.
+
+model_path: "Qwen3-0.6B"         # Default model folder (relative to project root). Change if you move the model files.
+project_path: "./"                # Path to the project root or cloned git repo. Used for file browsing and agent tools.
+git_repo_url: null                # (Optional) Set to a git repo URL for agent tools or project management features.
+port: 8000                        # TCP port for the FastAPI server. Change if you run multiple servers or need a different port.
+
+# Optional: LAN authentication
+# If set to a string, all API endpoints require this password (see main.py for usage).
+auth_password: null               # (Optional) Set a password for API access (leave blank/null for no auth).
+
+# Optional: Rate limiting (requests per minute per IP)
+# Set to an integer (e.g., 60) to limit requests per minute per IP. Null disables rate limiting.
+rate_limit: null                  # (Optional) Requests per minute per IP (leave blank/null for no limit).
+
+# --- Added for main.py maintainability ---
+max_new_tokens: 1024              # Maximum number of tokens to generate in a single model response. Prevents runaway outputs.
+debug: true                       # If true, enables FastAPI/uvicorn auto-reload for development. Set to false in production.
+
+torch_dtype: "float16"            # (Optional) Torch dtype for model: float16, float32, or bfloat16. Default: float16 for GPU.
+cors_origins: ["*"]               # (Optional) List of allowed CORS origins. Use ["*"] for all, or restrict to LAN IPs/domains.
+loglevel: "INFO"                  # (Optional) Logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL. Default: INFO.

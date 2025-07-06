@@ -1,0 +1,12 @@
+# Requirements for all wrappers and system
+pyyaml
+psutil
+notifiers
+schedule
+python-slugify
+watchdog
+jedi
+astroid
+rapidfuzz
+fuzzywuzzy
+requests

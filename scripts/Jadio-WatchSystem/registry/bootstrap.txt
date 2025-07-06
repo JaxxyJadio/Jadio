@@ -1,0 +1,44 @@
+# --- EXECUTION SCRIPTS ---
+CLEANER: watch_system/execution/cleaner.py
+FLAGGER: watch_system/execution/flagger.py
+INDEX_ASSISTANT: watch_system/execution/index_assistant.py
+INDEX_MANAGER: watch_system/execution/index_manager.py
+PATH_ASSISTANT: watch_system/execution/path_assistant.py
+REFERENCE_DUMPER: watch_system/execution/reference_dumper.py
+START: watch_system/execution/start.py
+STOP: watch_system/execution/stop.py
+
+# --- LOGS ---
+CLEANER_LOG_PATH: watch_system/logs/cleaner.log
+FLAGS_LOG_PATH: watch_system/logs/flags.log
+INDEX_LOG_PATH: watch_system/logs/index.log
+PATH_LOG_PATH: watch_system/logs/path.log
+
+# --- PAYLOADS ---
+INDEX_PAYLOAD_PATH: watch_system/payloads/index_payload.json
+PATH_PAYLOAD_PATH: watch_system/payloads/path_payload.json
+
+# --- REGISTRIES ---
+INDEX_REGISTRY_PATH: watch_system/registry/index_registry.yaml
+BOOTSTRAP_TXT_PATH: watch_system/registry/bootstrap.txt
+
+# --- CONFIG ---
+CONFIG_YAML: watch_system/config.yaml
+PROJECT_ROOT: .
+
+# --- WRAPPERS ---
+WRAPPER_AST: watch_system/wrappers/ast.py
+WRAPPER_ASTROID: watch_system/wrappers/astroid.py
+WRAPPER_DATETIME: watch_system/wrappers/datetime.py
+WRAPPER_FUZZYWUZZY: watch_system/wrappers/fuzzywuzzy.py
+WRAPPER_GLOB: watch_system/wrappers/glob.py
+WRAPPER_JEDI: watch_system/wrappers/jedi.py
+WRAPPER_JSON: watch_system/wrappers/json.py
+WRAPPER_LOGGING: watch_system/wrappers/logging.py
+WRAPPER_NOTIFIERS: watch_system/wrappers/notifiers.py
+WRAPPER_PYYAML: watch_system/wrappers/pyyaml.py
+WRAPPER_RAPIDFUZZ: watch_system/wrappers/rapidfuzz.py
+WRAPPER_SLUGIFY: watch_system/wrappers/slugify.py
+WRAPPER_WATCHDOG: watch_system/wrappers/watchdog.py
+WRAPPER_YAML: watch_system/wrappers/yaml.py
+

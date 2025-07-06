@@ -1,0 +1,36 @@
+# Cleaner configuration
+cleaner:
+  max_lines: 50
+pinger:
+  interval: 15
+# Path assistant configuration
+path_assistant:
+  ignore_fields:
+    - SUFFIXES
+    - EXCLUDE
+    - INTERVAL
+    - _CONFIG_PATH
+    - FILE_PATTERN
+    - REGISTRY_YAML
+  ignore_dirs:
+    - wrappers
+    - .git
+    - __pycache__
+    - venv
+    - env
+    - node_modules
+# Index assistant configuration
+index_assistant:
+  ignore_dirs:
+    - .git
+    - __pycache__
+# Reference dumper configuration
+reference_dumper:
+  ignore_dirs:
+    - .git
+    - __pycache__
+    - wrappers
+    - venv
+    - env
+    - node_modules
+    - watch_system

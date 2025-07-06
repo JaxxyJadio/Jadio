@@ -1,1 +1,0 @@
-Jadio-MoE will be a MoE variant of the decoder model.

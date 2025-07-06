@@ -1,0 +1,75 @@
+# YAML schema for config.yaml validation (for use with PyYAML + schema validation)
+type: map
+mapping:
+  model_path:
+    type: string
+    required: true
+    pattern: ".+"
+    desc: "Path to the Qwen3-0.6B model directory."
+  project_path:
+    type: string
+    required: true
+    pattern: ".+"
+    desc: "Path to the project root or repo."
+  git_repo_url:
+    type: string
+    required: false
+    allow_null: true
+    desc: "Optional git repo URL for agent tools."
+  port:
+    type: integer
+    required: true
+    range:
+      min: 1
+      max: 65535
+    desc: "TCP port for the server."
+  auth_password:
+    type: string
+    required: false
+    allow_null: true
+    pattern: ".{4,}"
+    desc: "Optional password for API access (min 4 chars, leave blank for no auth)."
+  rate_limit:
+    type: integer
+    required: false
+    allow_null: true
+    range:
+      min: 1
+      max: 10000
+    desc: "Optional requests per minute per IP (leave blank for no limit)."
+  max_new_tokens:
+    type: integer
+    required: true
+    range:
+      min: 1
+      max: 4096
+    desc: "Max tokens per model response."
+  debug:
+    type: boolean
+    required: true
+    desc: "Enable auto-reload for development."
+  torch_dtype:
+    type: string
+    required: false
+    enum:
+      - "float32"
+      - "float16"
+      - "bfloat16"
+    desc: "Optional torch dtype for model (float16 recommended for GPU)."
+  cors_origins:
+    type: list
+    required: false
+    sequence:
+      - type: string
+        pattern: ".+"
+    desc: "List of allowed CORS origins (default: ['*'])."
+  loglevel:
+    type: string
+    required: false
+    enum:
+      - "DEBUG"
+      - "INFO"
+      - "WARNING"
+      - "ERROR"
+      - "CRITICAL"
+    desc: "Logging level (default: INFO)."
