@@ -1,0 +1,8 @@
+torch
+transformers
+torchvision
+flask
+flask_cors
+waitress
+tqdm
+numpy
